@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    background: #ddd;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+h1, h2 {
+    color: #333;
+}
+p {
+    margin: 10px 0;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul li {
+    background: #f4f4f4;
+    margin: 5px 0;
+    padding: 10px;
+}
+a {
+    color: #0066cc;
+}
+a:hover {
+    color: #004999;
+}
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+    }
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
+}
+@media (min-width: 601px) {
+    nav a {
+        display: inline-block;
+        margin: 0 10px;
+    }
+}
+@media (min-width: 768px) {
+    .container {
+        width: 80%;
+    }
+    header, footer {
+        text-align: center;
+    }
+}
+@media (min-width: 1024px) {
+    .container {
+        width: 70%;
+    }
+    header, footer {
+        padding: 20px 0;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 60%;
+    }
+    header, footer {
+        padding: 30px 0;
+    }
+}
+@media (min-width: 1400px) {
+    .container {
+        width: 50%;
+    }
+    header, footer {
+        padding: 40px 0;
+    }
+}
+@media (min-width: 1600px) {
+    .container {
+        width: 40%;
+    }
+    header, footer {
+        padding: 50px 0;
+    }
+}
+@media (min-width: 1800px) {
+    .container {
+        width: 30%;
+    }
+    header, footer {
+        padding: 60px 0;
+    }
+}
+
+form {
+    margin: 20px 0;
+    padding: 20px;
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+}
+input[type="text"],
+input[type="email"],
+input[type="checkbox"] {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
